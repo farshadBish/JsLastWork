@@ -189,6 +189,11 @@ function isTodayMyBirthday(){
 Write a function called deleteProp which receives an object and a string as parameters,
 and returns the given object after deleting its property named as the given string.
 */
+function deleteProp(x,y){
+    delete x[y]
+    return x;
+}
+console.log(deleteProp({name: "jack",age: 12},"age"));
 
 /* EXERCISE 12
 Write a function called oldestMovie which finds the oldest movie in the provided movies array.
