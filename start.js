@@ -53,7 +53,7 @@ me.languages.push(coding);
 /* EXERCISE G
 Write a piece of code for programmatically removing the last skill from the skills array inside the me object.
 */
-coding.splice(coding.length-1,1);
+coding.pop();
 //console.log(me);
 
 // JS Functions
